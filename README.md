@@ -47,16 +47,21 @@ Java / Spring 기반 실서비스 운영 경험을 바탕으로,
 ## Selected Projects
 
 ### [commerce-orchestration-backend](https://github.com/Gseobi/commerce-orchestration-backend)
-주문 이후 흐름을 orchestration, explicit state, compensation, recovery 관점으로 설계한 프로젝트  
-`Transaction Flow` · `Explicit State` · `Recovery`
+주문 이후 payment · settlement · notification · outbox 흐름을  
+Orchestration, explicit state transition, compensation, retry/dead-letter, admin recovery 관점으로 설계한 프로젝트
+
+`Transaction Flow` · `Explicit State` · `Compensation / Recovery`
 
 ### [provider-integration-gateway](https://github.com/Gseobi/provider-integration-gateway)
-다수 Provider / PG 연동에서 요청 구성과 응답 표준화를 게이트웨이로 분리한 프로젝트  
-`External Integration` · `Strategy Pattern` · `Standardization`
+다수 Provider / PG 연동에서 Provider 선택, 요청 구성, 응답 표준화 책임을 
+Gateway 계층으로 분리한 프로젝트
+
+`External Integration` · `Strategy Pattern` · `Response Standardization`
 
 ### [realtime-caching-gateway](https://github.com/Gseobi/realtime-caching-gateway)
-Redis 처리 계층과 PostgreSQL fallback 구조를 함께 고려한 프로젝트  
-`Cache / Data Flow` · `Fallback Recovery` · `Consistency`
+Scheduler 기반 배치 작업을 중복 실행 제어, retry, 운영 가시성 관점으로 구조화한 프로젝트
+
+`Scheduler` · `Retry Flow` · `Execution Control`
 
 ## Tech Stack
 
