@@ -72,7 +72,7 @@ Scheduler 기반 배치 작업을 중복 실행 제어, retry, 운영 가시성 
 
 **Language**  
 Java, JavaScript  
-Kotlin / Python 등은 문서와 코드 구조를 이해하며 점진적으로 학습 및 적용 중
+Kotlin / Python은 문서와 코드 구조를 기반으로 점진적으로 학습 및 적용 가능
 
 **Framework**  
 Spring Boot, Spring MVC, Spring WebFlux, WebClient, MyBatis, JPA, QueryDSL
