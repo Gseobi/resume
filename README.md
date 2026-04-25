@@ -34,10 +34,11 @@ Java / Spring 기반 실서비스 운영 경험을 바탕으로,
 ## Experience
 
 ### Backend Developer | 2024.05 - Present
-- 통합 플랫폼 서버 및 공통 External API Gateway 설계·개발·운영
-- 외부 연동 과정의 상태 불일치, 재시도, timeout, 후속 처리 문제를 운영 가능한 구조로 정리
-- PHP / Java 레거시를 Spring Boot · Gradle 구조로 리빌딩하며 유지보수성 개선
-- Postman, Jira, Confluence 기반으로 구현 범위와 검증 범위를 명확히 관리
+- 앱 서비스 API 서버와 공통 External API Gateway를 중심으로 충전, 가입자 조회, Mail, 국제 SMS, Push, Daemon, Scheduler 영역의 설계·개발·운영을 담당
+- 외부 Provider 연동 과정에서 발생하는 요청/응답 차이, 인증 방식, timeout, 실패 분기, 후속 처리 문제를 운영 가능한 구조로 정리
+- 분산되어 있던 외부 API 호출 로직을 공통 설정과 호출 흐름 중심으로 리팩토링해, 연동사 변경 대응과 장애 원인 추적이 쉬운 구조로 개선
+- PHP / Java 기반 레거시 Callback API 및 Daemon 구조를 Spring Boot · Gradle 기반으로 리빌딩하며 유지보수성과 구조 이해도를 개선
+- 외부 연동 업체와의 커뮤니케이션, 테스트, 상용 반영, 운영 대응까지 직접 수행하며 실서비스 적용 전 과정을 경험
 
 ### Software Engineer | Automation Equipment Software | 2018.10 - 2023.10
 - 현장 운영 안정성과 예외 대응이 중요한 환경에서 프로젝트 수행
